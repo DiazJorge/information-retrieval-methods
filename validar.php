@@ -14,7 +14,7 @@
 			<div>
 				<div class="input-group">
 					<input type="text" id="entrada" name="entrada">
-					<label for="entrada">Expresión:</label>
+					<label for="entrada">Escriba una expresión:</label>
 				</div>				
 				<input type="submit" id="btn-submit" value="Enviar">
 			</div>
