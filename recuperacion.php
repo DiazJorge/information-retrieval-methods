@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="end">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Recuperación de la información</title>
@@ -16,10 +16,10 @@
 				</li>
 				<li><a href="#"><span class="segundo"><i class="icon icon-stats-dots"></i></span>Vectorial</a>
 					<ul>
-						<li><a href="checkbox1.php">Producto escalar</a></li>
-						<li><a href="checkbox2.php">Coseno del ángulo</a></li>
-						<li><a href="checkbox3.php">Coeficiente de Dice</a></li>
-						<li><a href="checkbox4.php">Coeficiente de Jaccard</a></li>
+						<li><a href="checkbox1.php?x=1">Producto escalar</a></li>
+						<li><a href="checkbox1.php?x=2">Coseno del ángulo</a></li>
+						<li><a href="checkbox1.php?x=3">Coeficiente de Dice</a></li>
+						<li><a href="checkbox1.php?x=4">Coeficiente de Jaccard</a></li>
 					</ul>
 				</li>
 				<li>
