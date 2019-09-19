@@ -31,14 +31,13 @@ body{
 	border-bottom: 1px solid #ccc;
 }
 
-.formulario input[type="radio"],
-.formulario input[type="checkbox"]{
+.formulario input[type="radio"], .formulario input[type="checkbox"]{
 	display: none;
 }
 
-.formulario .radio label,
-.formulario .checkbox label{
+.formulario .radio label, .formulario .checkbox label{
 	color:#0774D9;
+	width: 180px;
 	padding: 5px 15px 5px 51px;
 	display: inline-block;
 	position:relative;
@@ -50,13 +49,11 @@ body{
 	transition: all 0.3s ease;
 }
 
-.formulario .radio label:hover,
-.formulario .checkbox label:hover{
-	background: rgba(0,116,217,0.1)
+.formulario .radio label:hover, .formulario .checkbox label:hover{
+	background: rgba(0,116,217,0.1);
 }
 
-.formulario .radio label:before,
-.formulario .checkbox label:before{
+.formulario .radio label:before, .formulario .checkbox label:before{
 	content: "";
 	width:17px;
 	height: 17px;
@@ -74,20 +71,18 @@ body{
 	border-radius:3px;
 }
 
-.formulario input[type="radio"]:checked + label,
-.formulario input[type="checkbox"]:checked + label {
+.formulario input[type="radio"]:checked + label, .formulario input[type="checkbox"]:checked + label {
 	padding: 5px 15px;
 	background:#0774D9;
 	border-radius: 2px;
 	color:#fff;
 }
 
-.formulario input[type="radio"]:checked + label:before,
-.formulario input[type="checkbox"]:checked + label:before {
+.formulario input[type="radio"]:checked + label:before, .formulario input[type="checkbox"]:checked + label:before {
 	display:none;
 }
 
- .formulario input[type="submit"] {
+.formulario input[type="submit"] {
       background: #0774D9;
       border-radius: 1px;
       border: 2px solid #f2f2f2;
@@ -100,9 +95,11 @@ body{
       width: 100%;
      -webkit-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
-      transition: all 0.3s ease; }
+      transition: all 0.3s ease;
+}
       
 .formulario input[type="submit"]:hover {
-        background: #00ace6;}
+        background: #00ace6;
+}
 
 
