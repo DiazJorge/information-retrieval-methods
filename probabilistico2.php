@@ -75,7 +75,7 @@
         while(!feof($archivo))
         {
             $coches = fgets($archivo);
-            $coches = rtrim($coches);  // Retira el el salto de nueva linea de la cadena
+            $coches = rtrim($coches); 
 
             if(strcmp($coches, $termino) == 0)
                 return 1;
@@ -100,11 +100,10 @@
     function imprimir_tabla()
     {
         global $palabras, $auxiliar, $similitud, $consulta, $frecuencias, $frec_default, $numdoc;
-        // Se imprime primero la cabecera de la tabla
         print( "<table border= '1'>" );
             print( "<TR>" );
                 print( "<TD Colspan='13' width='80'
-                align=center>Modelo Probabilistico</TD>" ); // Colspan: unifica de forma orizontal las celdas de la tabla
+                align=center>Modelo Probabilistico</TD>" ); 
             print( "</TR>" );
             print( "<TR>" );
                 print( "<TH width='80'>-</TH>" );
@@ -126,7 +125,7 @@
         for( $i = 0; $i < 59; $i++ )
         {
             $peso = calcular_peso( $frecuencias[ $i ], $frec_default[ $i ], $numdoc, 10 );
-			//print( "Pesp".$peso );
+			
             print( "<table border= '1'>" );
             print( "<TR>" );
                 print( "<TD width='80' align=center >T$i</TD>" );
