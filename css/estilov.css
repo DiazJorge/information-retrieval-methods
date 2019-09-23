@@ -53,7 +53,8 @@ body {
      
          
       .contenedor-formulario .formulario .input-group label {
-        color: #0e5061; }
+        color: #0e5061; 
+      }
 	
     .contenedor-formulario .formulario input[type="submit"] {
       background: #2E8B57;
@@ -68,8 +69,10 @@ body {
       width: 100%;
      -webkit-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
-      transition: all 0.3s ease; }
+      transition: all 0.3s ease; 
+    }
     
       .contenedor-formulario .formulario input[type="submit"]:hover {
-        background: #127934; }
+        background: #127934; 
+      }
 
